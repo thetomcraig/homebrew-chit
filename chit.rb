@@ -1,8 +1,8 @@
 class Chit < Formula
   desc "Chane your terminal color schemes"
   homepage "https://github.com/thetomcraig/Chit"
-  url "https://github.com/thetomcraig/chit/blob/main/archive/chit_macos_10.15.02.tar.gz?raw=true"
-  sha256 "be263d8b8e1584db466234dfbe22549ac9039973af33df2e96bdfdd0bda08b50"
+  url "https://github.com/thetomcraig/chit/blob/main/archive/chit.0.0.3.tar.gz?raw=true"
+  sha256 "eb80c562c596531d8eefad1df6e8f361292f8f0c8f80cb349e6c9b3b8684f941"
   license "BSD-3-Clause"
 
   bottle :unneeded
