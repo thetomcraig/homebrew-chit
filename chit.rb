@@ -10,10 +10,9 @@ class Chit < Formula
   def install
     system "./build"
     bin.install "chit"
-    etc.install Dir["example_theme_definitions"]
     # Folder to hold the example thome .conf files
     # When initializing chit, these are copied to ~/.config/chit/theme_definitions/examples
-    (etc/"/etc/chit/example_theme_definitions").mkpath
-    cp prefix/bin/example_theme_definitions, example_theme_definitions
+    etc.install "example_theme_definitions" => "chit/example_theme_definitions"
   end
 end
+
