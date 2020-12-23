@@ -2,7 +2,7 @@ class Chit < Formula
   desc "Chane your terminal color schemes"
   homepage "https://github.com/thetomcraig/Chit"
   url "https://github.com/thetomcraig/chit/blob/main/archive/chit.0.0.5.tar.gz?raw=true"
-  sha256 "95ded653d3520d3ec1d726c73b806db5916cd0ef3923a961bf05547c71bb3308"
+  sha256 "28ce70954cbe272945f688946379983b36af091a3f8b83d21bc4a574bb787f2e"
   license "BSD-3-Clause"
 
   bottle :unneeded
