@@ -11,6 +11,7 @@ class Chit < Formula
     system "./build"
     bin.install "chit"
     prefix.install Dir["theme_definitions"]
+    system "cp", "theme_definitions", "${HOME}/theme_definitions/examples"
   end
 
 end
