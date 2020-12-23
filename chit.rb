@@ -10,7 +10,7 @@ class Chit < Formula
   def install
     system "./build"
     bin.install "chit"
-    prefix.install Dir["example_theme_definitions"]
+    etc.install Dir["example_theme_definitions"]
   end
 
 end
